@@ -1,5 +1,5 @@
 class Doctor
-  
+
   attr_accessor :name
 
   @@all = []
@@ -26,5 +26,5 @@ class Doctor
       apt.patient
     end
   end
-  
+
 end
