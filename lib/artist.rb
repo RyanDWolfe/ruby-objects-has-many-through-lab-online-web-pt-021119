@@ -19,7 +19,7 @@ class Artist
     @song = name
     @genre = genre
     song.genre = @genre
-    @songs << song
+    @songs << @song
     @genres << @genre
   end
 
